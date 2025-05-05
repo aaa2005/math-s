@@ -1,5 +1,5 @@
 function [n, y]= raphson(x0,ep)
-  n = 0;
+  n = 1;
   f = @(x) x^6 - x - 1;
   df = @(x) 6*x^5 - 1;
   x = x0 - f(x0)/df(x0);
