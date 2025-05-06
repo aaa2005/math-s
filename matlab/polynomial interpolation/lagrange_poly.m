@@ -14,4 +14,5 @@ function Pn = lagrange_poly(A, x)
       S = S + Ln;
     end
     Pn = S;
+
 end
