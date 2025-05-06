@@ -12,3 +12,4 @@ function S = simpson(a, b, n)
   end
   S = h * ( S + f(a) + f(b) ) / 3;
 end
+
